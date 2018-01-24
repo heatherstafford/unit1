@@ -10,4 +10,6 @@ search = input('Enter a character to search for, make it upper case: ')
 phrase = text.upper()
 letter = phrase.count(search)
 print('your sentence has',letter,'of the character',search)
-
+wrdsearch = input('Enter a character to search for, make it upper case: ')
+wrdnumber = phrase.count(wrdsearch)
+print('Your sentence has',wrdnumber,'of the word',wrdsearch)
