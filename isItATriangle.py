@@ -5,5 +5,5 @@
 sideA = int(input('Enter Side A: '))
 sideB = int(input('Enter Side B: '))
 sideB = int(input('Enter Side C: '))
-print(max(a,b,c))
-print(min(a,b,c))
+print(max(sideA,sideB,sideC))
+print(min(sideA,sideB,sideC))
