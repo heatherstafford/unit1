@@ -4,6 +4,9 @@
 
 sideA = int(input('Enter Side A: '))
 sideB = int(input('Enter Side B: '))
-sideB = int(input('Enter Side C: '))
-print(max(sideA,sideB,sideC))
-print(min(sideA,sideB,sideC))
+sideC = int(input('Enter Side C: '))
+big = max(sideA,sideB,sideC)
+small = min(sideA,sideB,sideC)
+perimeter = int(sideA + sideB + sideC)
+medium = (perimeter - big - small)
+small + medium > big
